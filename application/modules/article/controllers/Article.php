@@ -18,7 +18,7 @@ class Article extends CI_Controller {
 		//load model
         $this->load->model(array(
             'article/Article_model',
-            'article_video/Article_video_model',
+            'article_video/Article_video_model', 
             'Dynamic_model'
         ));
         //new class for model
